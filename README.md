@@ -9,16 +9,16 @@ classDiagram
     class GameController {
         - player: GameObject
         - enemy: GameObject 
-        + Start()void 
+        + Start() void 
     }
     class PlayerController {
         - speed: float 
-        + Update()void 
+        + Update() void 
     }
  
     class EnemyController {
         - chaseSpeed: float 
         - target: Transform 
-        + Update()void 
+        + Update() void 
     }
 ```
