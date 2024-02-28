@@ -1,6 +1,7 @@
 # 11-mermaid-mhuber
 
 ```mermaid
+classDiagram
     MonoBehaviour <|-- PlayerController
     MonoBehaviour <|-- EnemyController
     MonoBehaviour <|-- GameController
